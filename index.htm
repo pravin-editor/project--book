@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>Books Fun</h1>
+    </div>
+    <div class="container">
+        <div class="Books">
+            <h2>The Girl</h2>
+            <h4>Rishi </h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem officiis fugiat cupiditate
+                mollitia perferendis unde rem sit. Suscipit, fugit hic?</p>
+
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+    </div>
+    <div class="over"></div>
+    <div class="up">
+        <h2>ADD BOOK</h2>
+        <form>
+            <input type="text" placeholder="Book Tittle" id="tittle">
+            <input type="text " placeholder="Book Author" id="author">
+            <textarea placeholder="description" id="description"></textarea>
+            <button id="add">ADD</button>
+            <button id="cancle">CANCLE</button>
+        </form>
+    </div>
+
+    <button class="add" id="pop" >+</button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
